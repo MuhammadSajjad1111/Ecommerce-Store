@@ -1,8 +1,13 @@
 import React from 'react'
+import Header from './components/Header'
 
 const App = () => {
   return (
-    <div>Welcome to the Ecommerce store</div>
+    <div className=''>
+      <Header />
+      <p className=' text-xl text-slate-600 font-semibold'>Welcome to the Ecommerce store</p>
+
+    </div>
   )
 }
 
