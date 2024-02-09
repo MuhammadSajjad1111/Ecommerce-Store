@@ -1,14 +1,28 @@
 import React from 'react'
 import Header from './components/Header'
+import Footer from './components/Footer'
+import { Outlet } from 'react-router-dom';
+
+
 
 const App = () => {
   return (
     <div className=''>
       <Header />
-      <p className=' text-xl text-slate-600 font-semibold'>Welcome to the Ecommerce store</p>
+      <div className=' mx-36'>
+
+        <Outlet />
+
+
+
+
+
+      </div>
+
+      <Footer />
 
     </div>
   )
 }
 
-export default App
+export default App;
